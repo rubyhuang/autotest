@@ -1,0 +1,8 @@
+手把手教你如何安装和使用Karma-Jasmine
+http://www.cnblogs.com/wushangjue/p/4539189.html
+
+karma 入门
+https://blog.csdn.net/hj7jay/article/details/51822577
+
+Karma的第一次使用
+https://blog.csdn.net/sinat_27350883/article/details/50625633
