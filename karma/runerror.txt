@@ -1,0 +1,12 @@
+安装完成后,在命令行中敲入karma出现以下结果：
+karma不是内部或外部命令，也不是可运行的程序或批处理文件。
+
+解决方法
+在该目录下创建一个karma.cmd
+将npm.cmd的内容copy到karma.cmd，然后修改
+SET "NPM_CLI_JS=%~dp0\node_modules\npm\bin\npm-cli.js"为
+SET "NPM_CLI_JS=%~dp0\node_modules\karma\bin\karma"
+
+SET "NPM_PREFIX_NPM_CLI_JS=%%F\node_modules\npm\bin\npm-cli.js"为
+SET "NPM_PREFIX_NPM_CLI_JS=%%F\node_modules\karma\bin\karma"
+
